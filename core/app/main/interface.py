@@ -3,7 +3,7 @@ import redis
 from datetime import datetime
 
 
-redisClient = redis.Redis(host='127.0.0.1', port=6379, db=0, decode_responses=True, password='hik12345')
+redisClient = redis.Redis(host='127.0.0.1', port=6379, db=0, decode_responses=True, password='1231')
 # timeStr = datetime.now().strftime("%Y%m%d%H%M%S")
 
 def get_page(name):

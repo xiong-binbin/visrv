@@ -35,25 +35,6 @@
         </div>
       </div>
     </div>
-    <div class="other">
-      <h1 class="other-title">其它</h1>
-      <div class="other-list md-layout md-gutter">
-        <div class="md-layout-item">
-          <md-list>
-            <md-list-item href="/project" target="_blank">项目进度</md-list-item>
-          </md-list>
-        </div>
-        <div class="md-layout-item">
-          <md-list>
-            <md-list-item href="/tools" target="_blank">xml组装工具</md-list-item>
-          </md-list>          
-        </div>
-        <div class="md-layout-item"></div>
-        <div class="md-layout-item"></div>
-        <div class="md-layout-item"></div>
-        <div class="md-layout-item"></div>
-      </div>
-    </div>
   </div>
 </template>
 
