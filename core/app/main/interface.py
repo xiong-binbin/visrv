@@ -44,18 +44,5 @@ def post_document(data):
     redisClient.hset('document', tmp['key'], tmp['value'])
     return 'ok'
 
-rData = {
-    "status": "error",
-    "value": {
-        "header": "a",
-        "source": "b",
-    }
-}
-
-def post_tools(data):
-    tmp = json.loads(data)
-    xmlStr = tmp['value']
-    res = json.dumps(rData)
-    return res
 
 

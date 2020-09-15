@@ -13,7 +13,6 @@ pdf_path = os.getcwd() +'/app/static/pdf/'
 @main.route('/article')
 @main.route('/editor')
 @main.route('/project')
-@main.route('/tools')
 def index():
     if 'chrome' == request.user_agent.browser:
         return render_template('index.html')
@@ -69,9 +68,4 @@ class Document(Resource):
         data = request.get_data()
         return post_document(data)
 
-@api.resource('/api/tools')
-class Tools(Resource):
-    def post(self):
-        data = request.get_data()
-        return post_tools(data)
 
