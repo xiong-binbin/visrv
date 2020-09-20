@@ -1,8 +1,19 @@
-# freedom
+# 介绍
 
-> A Vue.js project
+web前端核心代码
 
-## Build Setup
+# 依赖库
+
+npm install webpack --save-dev
+npm install babel-polyfill --save-dev	//支持IE11工具
+npm install vue --save
+npm install vue-material --save
+npm install wangeditor --save			//富文本编辑器，需要翻墙
+npm install sass-loader@7.3.1 --save-dev
+npm install node-sass --save-dev		//需要翻墙
+npm install axios --save
+
+# 编译步骤
 
 ``` bash
 # install dependencies
@@ -18,16 +29,5 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-
-
-npm install webpack --save-dev
-npm install babel-polyfill --save-dev		//支持IE11工具
-npm install vue --save
-npm install vue-material --save
-npm install wangeditor --save			//富文本编辑器，需要翻墙
-npm install sass-loader@7.3.1 --save-dev
-npm install node-sass --save-dev		//需要翻墙
-npm install axios --save
 
